@@ -17,7 +17,8 @@ int main()
 
 	resultado = (a / b) + 1;
 
-	cout << "\nEl resultado es: " << resultado << ".";
+	cout.precision(3);
+	cout << "\nEl resultado es: " << resultado;
 
 
 	return 0;
